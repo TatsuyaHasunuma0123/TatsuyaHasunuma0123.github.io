@@ -55,7 +55,6 @@
   width: 50%;
   height: 110%;
   text-decoration: none;
-  background: #fff;
   border-radius: 8px;
   -webkit-transform: skewX(15deg);
       -ms-transform: skewX(15deg);
@@ -71,7 +70,6 @@
   left: 50px;
   width: 50%;
   height: 100%;
-  background: #fff;
   border-radius: 8px;
   -webkit-transform: skewX(15deg);
       -ms-transform: skewX(15deg);
@@ -176,7 +174,6 @@
   -webkit-transform: 0.5s;
       -ms-transform: 0.5s;
           transform: 0.5s;
-  color: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

@@ -28,7 +28,7 @@
   position: relative;
   width: 30%;
   height: 100%;
-  color: #ffffff;
+  font-color: #ffffff;
   text-align: center;
   font-family: 'TatsuyaHasunuma0123', cursive;
   /*text-decoration: underline;*/
@@ -41,7 +41,7 @@
   margin: 0 auto;
   width: 30%;
   height: 100%;
-  color: #ffffff;
+  font-color: #ffffff;
   text-align: center;
   font-family: 'TatsuyaHasunuma0123', cursive;
   font-size: 22px;
@@ -53,7 +53,7 @@
   margin-left: auto;
   width: 30%;
   height: 100%;
-  color: #ffffff;
+  font-color: #ffffff;
   text-align: center;
   font-family: 'TatsuyaHasunuma0123', cursive;
   font-size: 22px;

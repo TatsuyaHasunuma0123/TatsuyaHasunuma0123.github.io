@@ -1,0 +1,23 @@
+.title {
+  potision: relative;
+  width: 30%;
+  height: 100%;
+  place-content: center;
+  place-items:center;
+  margin: 0 auto;
+  text-align: center;
+  color: #ffffff;
+  font-family: 'TatsuyaHasunuma0123', cursive;
+  font-size: 70px;
+}
+
+.title_center{
+  position:relative;
+  top:50%;
+  left:60%;
+  width: 100%;
+  transform:translate(-50%,-50%);
+  width:100%;
+
+}
+

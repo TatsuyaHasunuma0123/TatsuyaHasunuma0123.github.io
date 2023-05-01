@@ -1,5 +1,5 @@
 .title {
-  potision: relative;
+  position: relative;
   width: 30%;
   height: 100%;
   place-content: center;
@@ -7,7 +7,7 @@
   margin: 0 auto;
   text-align: center;
   color: #ffffff;
-  font-family: 'TatsuyaHasunuma0123', cursive;
+  font-family: 'Caveat', cursive;
   font-size: 70px;
 }
 

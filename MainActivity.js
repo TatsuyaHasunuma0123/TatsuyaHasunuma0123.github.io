@@ -6,7 +6,7 @@ menuButtons.forEach(function(menuButton) {
     menuButton.style.cursor = "pointer";
   });
   menuButton.addEventListener("click", function(event) {
-    titleDiv.textContent = event.target.textContent;
+    titleDiv.textContent = event.target.textContent.replace(">","");
   });
 });
 

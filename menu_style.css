@@ -31,6 +31,7 @@
   height: 100%;
   text-align: center;
   font-family: 'TatsuyaHasunuma0123', cursive;
+  color: #ffffff;
   /*text-decoration: underline;*/
   font-size: 22px;
 }
@@ -42,6 +43,7 @@
   width: 30%;
   height: 100%;
   text-align: center;
+  color: #ffffff;
   font-family: 'TatsuyaHasunuma0123', cursive;
   font-size: 22px;
 }
@@ -53,6 +55,7 @@
   width: 30%;
   height: 100%;
   text-align: center;
+  color: #ffffff;
   font-family: 'TatsuyaHasunuma0123', cursive;
   font-size: 22px;
 }

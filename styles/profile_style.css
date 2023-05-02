@@ -127,6 +127,7 @@
 
 .info_view4:hover{
   position: absolute;
+  cursor: pointer;
   top: 84%;
   width: 80%;
   height: 10%;

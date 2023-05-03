@@ -192,7 +192,7 @@
 }
 
 .box .content h3 {
-  font-size: 28px;
+  font-size: 27px;
   color: #ffffff;
   margin-bottom: 10px;
 }
@@ -202,7 +202,7 @@
   height: 90%;
   border-radius: 15px;
   overflow: hidden;
-  box-shadow: 0 4px 15px rgba(0,0,0,.2)
+  box-shadow: 0 8px 30px rgba(0,0,0,.2)
 }
 .card__imgframe{
   width: 100%;

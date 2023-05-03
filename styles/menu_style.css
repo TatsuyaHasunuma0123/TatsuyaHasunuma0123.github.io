@@ -29,13 +29,14 @@
   width: 50%;
   height: 100%;
   text-align: center;
-  font-family: 'Caveat', cursive;
+  font-family: 'Itim', cursive;
   color: #ffffff;
   /*text-decoration: underline;*/
   font-size: 22px;
 }
 
 .menu_content2 {
+  font-family: Item;
   position: relative;
   top: -100%;
   margin-left: auto;
@@ -43,11 +44,12 @@
   height: 100%;
   text-align: center;
   color: #ffffff;
-  font-family: 'Caveat', cursive;
+  font-family: 'Itim', cursive;
   font-size: 22px;
 }
 
 .menu_content3 {
+  font-family: Item;
   position: relative;
   top: -200%;
   margin-left: auto;
@@ -55,7 +57,7 @@
   height: 100%;
   text-align: center;
   color: #ffffff;
-  font-family: 'Caveat', cursive;
+  font-family: 'Itim', cursive;
   font-size: 22px;
 }
 

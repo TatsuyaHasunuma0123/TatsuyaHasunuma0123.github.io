@@ -189,38 +189,3 @@
   color: #fff;
   margin-bottom: 10px;
 }
-/*
-.card{
-  width: 90%;
-  height: 90%;
-  border-radius: 15px;
-  overflow: hidden;
-  box-shadow: 0 4px 15px rgba(0,0,0,.2)
-}
-.card__imgframe{
-  width: 100%;
-  height: 60%;
-  
-  background: #bbb;
-  box-sizing: border-box;
-  border-radius: 15px
-}
-.card__textbox{
-  width: 100%;
-  height: 40%;
-  padding: 20px 18px;
-  
-  box-sizing: border-box;
-}
-.card__textbox > * + *{
-  margin-top: 10px;
-}
-.card__titletext{
-  font-size: 20px;
-  font-weight: bold;
-  line-height: 125%;
-}
-.card__overviewtext{
-  font-size: 18px;
-  line-height: 150%;
-}*/

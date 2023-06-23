@@ -1,75 +1,92 @@
 <!-- HTMLコード -->
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <title>My Profile</title>
-  <link rel="stylesheet" href="./styles/android_content.css">
-  <link rel="stylesheet" href="./styles/menu_style.css">
-  <link rel="stylesheet" href="./styles/profile_style.css">
-  <link rel="stylesheet" href="./styles/title_style.css">
-  <link rel="stylesheet" href="./styles/web_content.css">
+  <head>
+    <meta charset="UTF-8" />
+    <title>My Profile</title>
+    <link rel="stylesheet" href="./styles/android_content.css" />
+    <link rel="stylesheet" href="./styles/menu_style.css" />
+    <link rel="stylesheet" href="./styles/profile_style.css" />
+    <link rel="stylesheet" href="./styles/title_style.css" />
+    <link rel="stylesheet" href="./styles/web_content.css" />
     <!-- <script type="text/javascript" src="sample.js"></script> -->
-</head>
+  </head>
 
-<body bgcolor = "#07182E">
-  <script src="MainActivity.js" async></script>
-    <div class="profile" style="z-index:900">
-
+  <body bgcolor="#07182E">
+    <script src="MainActivity.js" async></script>
+    <div class="profile" style="z-index: 900">
       <div class="prof_card2">
-        
-        <div class="profile_icon" style="z-index:1000">
-          <img src="image/icon.jpg" class="icon_image">
-          <br >
+        <div class="profile_icon" style="z-index: 1000">
+          <img src="image/icon.jpg" class="icon_image" />
+          <br />
           TatsuyaHasnuma0123
-          <hr>
-          <br>
+          <hr />
+          <br />
         </div>
-        
-        <div class="info_view" style="z-index:1000">
-          <div class="info_view_icon" style="display: flex; align-items: center; justify-content: center;">
-              <img src="image/mail.png">
+
+        <div class="info_view" style="z-index: 1000">
+          <div
+            class="info_view_icon"
+            style="display: flex; align-items: center; justify-content: center"
+          >
+            <img src="image/mail.png" />
           </div>
           <div class="info_view_info">
-            <font color=#00B7FF>E</font>mail :<br >
+            <font color="#00B7FF">E</font>mail :<br />
             thsu.work@gmail.com
           </div>
         </div>
 
-        <div class="info_view2" style="z-index:1000">
-          <div class="info_view_icon" style="display: flex; align-items: center; justify-content: center;">
-              <img src="image/location.png">
+        <div class="info_view2" style="z-index: 1000">
+          <div
+            class="info_view_icon"
+            style="display: flex; align-items: center; justify-content: center"
+          >
+            <img src="image/location.png" />
           </div>
           <div class="info_view_info">
-            <font color=#8074FF>L</font>ocation :<br >
+            <font color="#8074FF">L</font>ocation :<br />
             Gifu, Japan
           </div>
         </div>
 
-        <div class="info_view3" style="z-index:1000">
-          <div class="info_view_icon" style="display: flex; align-items: center; justify-content: center;">
-              <img src="image/cake.png">
+        <div class="info_view3" style="z-index: 1000">
+          <div
+            class="info_view_icon"
+            style="display: flex; align-items: center; justify-content: center"
+          >
+            <img src="image/cake.png" />
           </div>
           <div class="info_view_info">
-            <font color=#FF30FF>B</font>irth day :<br >
+            <font color="#FF30FF">B</font>irth day :<br />
             January 1 , 2001 (21)
           </div>
         </div>
 
-        <div class="info_view4" style="display: flex; align-items: center; justify-content: center; z-index: 1000;">
-          <img src="image/git.png">
-          <a class="link" href="https://github.com/TatsuyaHasunuma0123" target="_blank"></a>
+        <div
+          class="info_view4"
+          style="
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+          "
+        >
+          <img src="image/git.png" />
+          <a
+            class="link"
+            href="https://github.com/TatsuyaHasunuma0123"
+            target="_blank"
+          ></a>
         </div>
       </div>
     </div>
-    
 
     <div class="menu" style="z-index: 2000">
-      
       <div class="title">
         <div id="titleDiv" class="title_center">Android</div>
       </div>
-    
+
       <div class="menu_card" style="z-index: 8000">
         <div class="menu_content1" id="div_android" onClick="showAndroid()">
           <div class="content_center">> Android</div>
@@ -77,67 +94,76 @@
         <div class="menu_content2" id="div_web" onClick="showWeb()">
           <div class="content_center">> Web</div>
         </div>
-
       </div>
     </div>
-
 
     <div class="portfolio_content" id="android_view">
       <div class="android_content">
         <div class="box">
           <span></span>
           <div class="content">
-            <a href="https://github.com/TatsuyaHasunuma0123/canvas" target="_blank"></a>
+            <a
+              href="https://github.com/TatsuyaHasunuma0123/canvas"
+              target="_blank"
+            ></a>
             <div class="card">
               <div class="card__imgframe">
-              <img src="image/canvas.png" class="image_resize">
+                <img src="image/canvas.png" class="image_resize" />
               </div>
               <div class="card__textbox">
                 <div class="card__titletext">
-                  <h2><font size="40px" color=#00B7FF>C</font>anvas</h2>
+                  <h2><font size="40px" color="#00B7FF">C</font>anvas</h2>
                 </div>
                 <div class="card__overviewtext">
-                <font color=#ffffff>Drawing app with save and load.</font>
+                  <font color="#ffffff">Drawing app with save and load.</font>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        
-        <div class="box">
-          <span></span>
-          <div class="content">
-            <a href="https://github.com/TatsuyaHasunuma0123/MusicPlayer" target="_blank"></a>
-            <div class="card">
-              <div class="card__imgframe">
-                <img src="image/music.png" class="image_resize">
-              </div>
-              <div class="card__textbox">
-                <div class="card__titletext">
-                  <h2><font size="40px" color=#8074FF>M</font>usic</h2>
-                </div>
-                <div class="card__overviewtext">
-                  <font color=#ffffff>Music app with various features.</font>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> 
 
         <div class="box">
           <span></span>
           <div class="content">
-            <a href="https://github.com/TatsuyaHasunuma0123/TwitterCalendar" target="_blank"></a>
+            <a
+              href="https://github.com/TatsuyaHasunuma0123/MusicPlayer"
+              target="_blank"
+            ></a>
             <div class="card">
               <div class="card__imgframe">
-                <img src="image/twitter.png" class="image_resize">
+                <img src="image/music.png" class="image_resize" />
               </div>
               <div class="card__textbox">
                 <div class="card__titletext">
-                  <h2><font size="35px" color=#FF30FF>T</font>wiLendar</h2>
+                  <h2><font size="40px" color="#8074FF">M</font>usic</h2>
                 </div>
                 <div class="card__overviewtext">
-                  <font color=#ffffff>App with Twitter API and calendar.</font>
+                  <font color="#ffffff">Music app with various features.</font>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <span></span>
+          <div class="content">
+            <a
+              href="https://github.com/TatsuyaHasunuma0123/TwitterCalendar"
+              target="_blank"
+            ></a>
+            <div class="card">
+              <div class="card__imgframe">
+                <img src="image/twitter.png" class="image_resize" />
+              </div>
+              <div class="card__textbox">
+                <div class="card__titletext">
+                  <h2><font size="35px" color="#FF30FF">T</font>wiLendar</h2>
+                </div>
+                <div class="card__overviewtext">
+                  <font color="#ffffff"
+                    >App with Twitter API and calendar.</font
+                  >
                 </div>
               </div>
             </div>
@@ -146,20 +172,22 @@
       </div>
     </div>
 
-    <div class="portfolio_content" id="web_content" style="display: none;">
+    <div class="portfolio_content" id="web_content" style="display: none">
       <div class="web_content" id="web_content">
-        
         <div class="box2">
           <span></span>
           <div class="content">
-            <a href="https://github.com/TatsuyaHasunuma0123/Discuss" target="_blank"></a> 
+            <a
+              href="https://github.com/TatsuyaHasunuma0123/Discuss"
+              target="_blank"
+            ></a>
             <div class="card">
               <div class="card__imgframe">
-                <img src="image/Discussion.png" class="image_resize">
+                <img src="image/Discussion.png" class="image_resize" />
               </div>
               <div class="card__textbox">
                 <div class="card__titletext">
-                  <h2><font size="40px" color=#00B7FF>D</font>iscussion</h2>
+                  <h2><font size="40px" color="#00B7FF">D</font>iscussion</h2>
                 </div>
                 <div class="card__overviewtext">
                   Web app for chatting in threads.
@@ -172,17 +200,22 @@
         <div class="box2">
           <span></span>
           <div class="content">
-            <a href="https://github.com/TatsuyaHasunuma0123/portfolio" target="_blank"></a>
+            <a
+              href="https://github.com/TatsuyaHasunuma0123/portfolio"
+              target="_blank"
+            ></a>
             <div class="card">
               <div class="card__imgframe">
-                <img src="image/portfolio.png" class="image_resize">
+                <img src="image/resas.png" class="image_resize" />
               </div>
               <div class="card__textbox">
                 <div class="card__titletext">
-                  <h2><font size="40px" color=#FF30FF>P</font>ortfolio</h2>
+                  <h2>
+                    <font size="40px" color="#FF30FF">P</font>opulation Graph
+                  </h2>
                 </div>
                 <div class="card__overviewtext">
-                  Introducing my own app.
+                  Population trends are displayed in graphs.
                 </div>
               </div>
             </div>
@@ -190,5 +223,5 @@
         </div>
       </div>
     </div>
-</body>
+  </body>
 </html>
